@@ -1,0 +1,290 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaQ.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <nav id="Dnav">
+        <div class="logo">Alok Chandra</div>
+        <div>
+            <ul class="navlinks">
+             <li><a href="#about">About</a></li>
+             <li><a href="#exp">Experience</a></li>       
+             <li><a href="#Projects">Projects</a></li>       
+             <li><a href="#contact">Contact</a></li>       
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo">Alok Chandra</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+ 
+            </div>
+<div class="menulinks">
+    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+    <li><a href="#exp" onclick="toggleMenu()">Exprience</a></li>       
+    <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>       
+    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>       
+ 
+</div>
+      </div>
+    </nav>
+
+    <section id="profile">
+<div class="secpicc">
+    <img src="./assets/Alok.jpg" alt="Alok" class="Alok">
+</div>
+<div class="section_text">
+    <p class="textp1">Hello I'm</p>
+    <h1 class="title">Alok</h1>
+    <p class="textp2">Being Developer </p>
+    <div class="btn-container">
+    <button class="btn btn-c2" onclick="window.open('./assets/Resume.pdf')">
+        Download CV
+  </button>
+  <button class="btn btn-c1" onclick="location.href='./#contact'">
+    Contact
+</button>
+</div>
+<div class="social">
+    <img src="./assets/linkedin.png" alt="mY linkedin profile" class="icon" 
+    onclick="location.href='https://www.linkedin.com/in/alok-chandra-a426b1293'">
+
+<img src="./assets/github.png" alt="mY GitHub profile" class="icon" 
+    onclick="location.href='https://github.com/alok-chandra108'">
+
+
+ </div>
+ </div>
+ 
+    </section>
+
+    <section id="about">
+        <p class="textp1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="secpicc">
+                <img src="./assets/Alok2.jpg" alt="profile Pic" class="Pic">
+            </div>
+            <div class="about-details-cont">
+                <div class="about-cont">
+                    <div class="details-cont">
+                        <img src="./assets/experience.png" alt="Experience" class="icon">
+                        <h3>Experience</h3>
+                        <P>Beginner<br> (Eager Learner)</P>
+
+                    </div>
+                    <div class="details-cont">
+                        <img src="./assets/education.png" alt="education" class="icon">
+                        <h3>Education</h3>
+                        <P>SSLC 82%<br> PCMC 83%<br></P>
+
+                    </div> 
+                </div>
+                <div class="textCont">
+                    <p>Hello, I'm Alok Chandra, a final year BCA student at St. Aloysius College in Mangalore. 
+                        My journey in the world of computer science has been an exciting one, driven by a passion 
+                        for technology and a thirst for knowledge. During my academic journey, I've had the 
+                        opportunity to explore various aspects of computer science, from coding and programming to 
+                        web development and software design. I believe in the power of technology to shape the future, 
+                        and I'm enthusiastic about contributing my skills and creativity to make a positive impact
+                         in the digital world. 
+                        Feel free to explore my portfolio to discover more about my projects and experiences</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="arrow"
+        onclick="location.href='./#exp'" style="height: 32px; width: 32px;">
+    </section>
+
+    <section id="exp">
+        <p class="textp1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="exp-details-cont">
+            <div class="about-cont">
+                <div class="details-cont">
+                    <h2 class="exp-st">Frontend Developer</h2>
+                    <div class="article-cont">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>SCSS</h3>
+                                <p>N\A</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>N\A</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>UI/UX</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-cont">
+                    <h2 class="exp-st">Backend Developer</h2>
+                    <div class="article-cont">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>phP</h3>
+                                <p>N\A</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>N\A</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>N\A</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>mySQL</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>React JS</h3>
+                                <p>N\A</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp-Icon" class="icon">
+                            <div>
+                                <h3>Tailwind CSS</h3>
+                                <p>N\A</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="arrow"
+        onclick="location.href='./#Projects'" style="height: 32px; width: 32px;">
+    </section>
+
+    <section id="Projects">
+        <p class="textp1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class=35">
+            <div class="about-cont">
+            <div class="details-cont color-cont" style="height: 390px; width: 400px;">
+                <div class="article-cont">
+                    <img src="./assets/project-1.png" alt="project-1" class="project-img" 
+                    style="height: 270px; width: 270px;">
+                </div>
+                    <h2 class="exp-st project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-c2 project-btn onclick="location.href=''">GitHub</button>
+                        <button class="btn btn-c2 project-btn onclick="location.href=''">Live Demo</button> 
+ 
+                    </div>
+            </div>
+            <div class="details-cont color-cont" style="height: 390px; width: 400px;">
+                <div class="article-cont">
+                    <img src="./assets/project-2.png" alt="project-2" class="project-img" 
+                    style="height: 270px; width: 270px;">
+                </div>
+                    <h2 class="exp-st project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-c2 project-btn onclick="location.href=''">GitHub</button>
+                        <button class="btn btn-c2 project-btn onclick="location.href=''">Live Demo</button> 
+ 
+                    </div>
+            </div>
+            <div class="details-cont color-cont" style="height: 390px; width: 400px;">
+                <div class="article-cont">
+                    <img src="./assets/project-3.png" alt="project-3" class="project-img" 
+                    style="height: 270px; width: 270px;">
+                </div>
+                    <h2 class="exp-st project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-c2 project-btn onclick="location.href=''">GitHub</button>
+                        <button class="btn btn-c2 project-btn onclick="location.href=''">Live Demo</button> 
+ 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="arrow"
+        onclick="location.href='./#contact'" style="height: 32px; width: 32px;">
+    </section>
+
+    <section id="contact">
+        <p class="textp1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-uc">
+         <div class="contact-info-cont">
+            <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+            <p><a href="">Alok@gmail.com</a></p>
+         </div>
+         <div class="contact-info-cont">
+            <img src="./assets/linkedin.png" alt="email icon" class="icon contact-icon">
+            <p><a href="">LinkedIn</a></p>
+         </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="navlinks-cont">
+                <ul class="navlinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#exp">Experience</a></li>       
+                    <li><a href="#Projects">Projects</a></li>       
+                    <li><a href="#contact">Contact</a></li>       
+                   </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Alok Chandra. All Rights Reserved <br>
+        Made With Love 💙💜</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
