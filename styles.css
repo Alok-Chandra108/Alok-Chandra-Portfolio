@@ -74,7 +74,7 @@ a:hover{
     cursor: pointer;
 } 
 .ham-icon span{
-    width: 100%;
+    width: auto;
     height: 2px;
     background-color: black;
     transition: all 0.3 ease-in-out;
@@ -162,15 +162,14 @@ section{
 }
 .Alok{
     border-radius: 50%;
-    height: 400px;
-    width: 400px;
-   
-   
+    height: 100%;
+    width: 90%;
 }
+
 .section_text{
     align-self: center;
     text-align: center;
-    
+    padding-bottom: 30px;
 
 }
 .section_text p{

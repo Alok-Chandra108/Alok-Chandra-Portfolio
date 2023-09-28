@@ -26,26 +26,36 @@
   #profile,
   .section-container {
     display: block;
+    
   }
+
+  
+
   .arrow {
     display: none;
   }
   section,
   .section-container {
     height: fit-content;
+
+    
   }
   section {
     margin: 0 5%;
   }
   .secpicc{
-    {
-    width: 275px;
-    height: 275px;
+    
+    width: 200px;
+    height: 200px;
     margin: 0 auto 2rem;
   }
+  .Alok{
+    border-radius: 50%;
+    height: 150px;
+    align-items: center;
+    
+  }
 
-
-  
   .about-cont {
     margin-top: 0;
   }
@@ -57,11 +67,12 @@
     height: 40vh;
   }
   #profile {
-    height: 82vh;
+    height: 79vh;
     margin-bottom: 0;
+    
   }
   .section_text{
-    padding-top: 40px;
+    padding-top: 25px;
   }
   article {
     font-size: 1rem;
@@ -102,10 +113,16 @@
     width: auto;
     height: 46vw;
     justify-content: center;
+     width: 200px;
+      height: 200px;
+      margin: 0 auto 2rem;
+    }
+    
   }
   .Alok{
-    border-radius: 95%;
-   height: 200px;
+    border-radius: 50%;
+   
+   
   }
   .textp2 {
     font-size: 1.25rem;
@@ -138,5 +155,9 @@
   .article-cont{
     gap: 1rem;
   }
+.menu-links{
+  padding: 5px;
+}
+  
   
 }
